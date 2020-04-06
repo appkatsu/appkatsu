@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: rgb(24 25 24);
+    color: white;
+}
+
+ h2 {
+    text-align: left;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    #l {
+        margin-top: 2rem;
+    }
+  body {
+    text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+    position: absolute;
+    visibility: hidden;
+  }
+
+#lol {
+    position: absolute;
+    right: 15%;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#lel {
+    position: relative;
+    width: 70%;
+        margin:0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
+
+
+/* Navigation Bar */
+
+.nav-bar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(40 40 41);
+    margin-bottom: 0.5rem;
+}
+
+.nav-title {
+    display: inline-block;
+    margin:0px;
+    padding: 1rem 0 1rem 0rem;
+    color: white;
+}
+
+/* Holder */
+
+.holder {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 1rem 0px 1rem;
+}
+
+
+/* First Section */
+
+#first {
+    padding: 1rem;
+}
+
+.circle {
+    position: fixed;
+    top: -1500px;
+    left:25%;
+    height: 3000px;
+    width: 3000px;
+    border-radius: 100%;
+    background-color: rgb(197 31 93);
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-press {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem 1rem 1rem 40%;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.img-holder {
+    opacity: 0;
+    margin: 1rem 1rem 1rem 40%;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* second Section */
+
+#second {
+    margin-top: 5rem;
+    background-color: rgb(40 40 41);
+    padding:1rem 0rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#second2 {
+    margin-top: 5rem;
+    background-color: rgb(40 40 41);
+    padding:1rem 0rem;
+    opacity: 0;
+}
+
+.a {
+    margin: auto;
+    padding: 0.5rem;
+    text-align:center;
+}
+
